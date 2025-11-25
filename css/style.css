@@ -9,6 +9,11 @@
   background-color:red;
   
 }
+.logo{
+  height:50%;
+  width:20%;
+  background-color:pink;
+}
 @media (max-width:576px){
   .navbar{
   height:7%;
