@@ -21,13 +21,12 @@
 }
 .menu {
   display:flex;
-  margin-top:10px;
   text-align:center;
 }
-a{
+.menu a{
   color:black;
   text-decrotion:none;
-  margin:50px
+  margin:20px
 }
 @media (max-width:576px){
   .navbar{
