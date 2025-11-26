@@ -24,6 +24,7 @@ a{
   color:black;
   text-decrotion:none;
   margin:30px;
+  text-align:center;
 }
 @media (max-width:576px){
   .navbar{
