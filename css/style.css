@@ -12,12 +12,12 @@
 }
 .logo{
   height:100%;
-  width:30%;
+  width:10%;
   background-color:pink;
 }
 .logo img{
   height:100%;
-  width:30%;
+  width:100%;
 }
 .menu {
   display:flex;
