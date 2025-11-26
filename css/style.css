@@ -14,7 +14,7 @@
   height:100%;
   width:30%;
   background-color:pink;
-  display:center;
+  display:flex;
   justify-content:center;
   
 }
