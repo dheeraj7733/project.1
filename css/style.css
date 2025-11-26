@@ -15,16 +15,19 @@
   width:30%;
   background-color:pink;
 }
+.logo img{
+  height:100%;
+  width:30%;
+}
 .menu {
   display:flex;
   margin-top:15px;
-  
+  text-align:center;
 }
 a{
   color:black;
   text-decrotion:none;
-  margin:30px;
-  text-align:center;
+  margin:30px
 }
 @media (max-width:576px){
   .navbar{
