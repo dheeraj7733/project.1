@@ -16,6 +16,9 @@
   background-color:pink;
   
 }
+.menu{
+  display:flex;
+}
 @media (max-width:576px){
   .navbar{
   height:7%;
