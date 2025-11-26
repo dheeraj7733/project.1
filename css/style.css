@@ -18,9 +18,12 @@
 .menu {
   display:flex;
   margin-top:15px;
+  
 }
-.menu ul{
-  display:flex
+a{
+  color:black;
+  text-decrotion:none;
+  margin:30px;
 }
 @media (max-width:576px){
   .navbar{
