@@ -17,6 +17,7 @@
 }
 .menu {
   display:flex;
+  margin-top:15px;
 }
 .menu ul{
   display:flex
