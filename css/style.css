@@ -21,8 +21,7 @@
 }
 .menu {
   display:flex;
-  text-align:center;
-  padding:5px;
+  align-item:center;
   width:80%;
   justify-content:space-around;
 }
