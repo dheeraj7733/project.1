@@ -10,7 +10,7 @@
         display:flex;
 }
 .logo{
-        width:20%;
+        width:10%;
         flex:1;
         background-color:white;
 }
@@ -25,7 +25,7 @@
         height:auto;
 }
 .menu{
-        width:80%;
+        width:90%;
         /* display:flex; */
         flex:3;
 }
