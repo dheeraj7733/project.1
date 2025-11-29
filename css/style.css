@@ -12,7 +12,7 @@
 .logo{
         width:20%;
         flex:1;
-        /* background-color:white; */
+        background-color:white;
 }
 .logo a{
         width:100%;
