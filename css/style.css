@@ -6,7 +6,7 @@
 .navbar{
         width:100%;
         height:10%;
-        background:linear-gradient(to left,black,gray);
+        background:linear-gradient(to left,gray,black);
         display:flex;
 }
 .logo{
