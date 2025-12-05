@@ -51,7 +51,7 @@
 .menu .menubar ul li .submenu{
        height:auto;
         width:auto;
-        display:none;
-        
+        /* display:none; */
+       background-color:red; 
         
 }
