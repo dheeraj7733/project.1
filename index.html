@@ -6,28 +6,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="navbar">
-     <div class="logo">
-         <img src="images/dj.png">
-     </div>
-     <div class="menu">
-       <div class="menubar">
-         <ul>
-           <li><a href="#">HOME</a>
-             <ul class = "submenu">
-               <li><a href="#">CONTENT</a></li>
-               <li><a href="#">CONTENT</a></li>
-               <li><a href="#">CONTENT</a></li>
-               <li><a href="#">CONTENT</a></li>
-             </ul>
-           </li>
-           <li><a href="about.html">ABOUT</a></li>   
-           <li><a href="#">CONTENT</a></li>   
-           <li><a href="#">SERVICE</a></li>
-              
-        </ul>
-       </div>
-     </div>
-    </div>
+    <div id="header"> </div>
+    <script>
+      fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+        });
+      
+    </script>
+    <h1> Hello world </h1>
   </body>
 </html>
