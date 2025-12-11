@@ -6,6 +6,16 @@
    <title>About</title>
 </head>
 <body>
+    <div id="header"> </div>
+    <script>
+      fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+        });
+      
+    </script>
+    <h1> Hello world </h1>
    <h1>this id my about page</h1>
 </body>
 </html>
