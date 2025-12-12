@@ -23,7 +23,7 @@
       links. forEach(link => {
         console.log("Current page:" , currentpage);
 
-        let linkpage = link.getAttributes("href");
+        let linkpage = link.getAttribute("href");
         console.log("attribute value:" ,linkpage);
         if(!linkpage)return;
         if (linkpage == currentpage){
