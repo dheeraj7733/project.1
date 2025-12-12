@@ -41,7 +41,7 @@
 .menu ul li a{
         text-decoration:none;
         color:white;
-        font-size:1vw;
+        font-size:1.5vw;
         position:absolute;
 }      
 .menu ul .underline_current a{
