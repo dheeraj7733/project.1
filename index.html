@@ -24,9 +24,9 @@
         console.log("Current page:" , currentpage);
 
         let linkpage = link.getAttributes("href");
-        console.log("attribute value:" linkpage);
+        console.log("attribute value:" ,linkpage);
         if(!linkpage)return;
-        if (linkpage == current page){
+        if (linkpage == currentpage){
             link.closest("li").classList.add("underline_current")
         }
       });
