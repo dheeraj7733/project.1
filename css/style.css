@@ -47,6 +47,7 @@
 .menu ul .underline_current a{
         text-decoration:underline;
         text-decoration-color:red;
+        color: red;
        
 }
 .menu ul li a:hover{
