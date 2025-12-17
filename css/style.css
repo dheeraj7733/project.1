@@ -44,14 +44,14 @@
         font-size:1.5vw;
         position:absolute;
 }      
-/* .menu ul .underline_current a{
+.menu ul .underline_current a{
         text-decoration:underline;
         text-decoration-color:white;
        
-} */
+}
 .menu ul li a:hover{
-        text-decoration: underline;
-        color:gray;      
+        /* text-decoration: underline; */
+        color:red;      
 }
 .menu .menubar ul li .submenu{
        height:auto;
