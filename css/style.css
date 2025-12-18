@@ -69,7 +69,7 @@
         transform:translateX(-50%);
         border:1px solid black;
         flex-direction:column;
-        padding:5px;
+        padding:5px 0;
         z-index:10;
 }
 .menu .menubar ul li .submenu li{
