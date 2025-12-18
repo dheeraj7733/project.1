@@ -48,6 +48,10 @@
         text-decoration:underline;
         text-decoration-color:red;
         color: red;
+        justify-content:center;
+        align-iteam:center;
+        height:100;
+        position:static !important;
        
 }
 .menu ul li a:hover{
