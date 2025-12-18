@@ -62,7 +62,7 @@
         /* text-decoration: underline; */
         color:red;      
 }
-/* .menu .menubar ul li .submenu{
+.menu .menubar ul li .submenu{
        height:auto;
         width:200px;
         display:none;
@@ -90,4 +90,4 @@
 }
 .menubar ul li:hover .submenu{
         display:block;    
-} */
+}
