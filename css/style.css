@@ -56,8 +56,23 @@
 }
 .menu .menubar ul li .submenu{
        height:auto;
-        width:auto;
-        /* display:none; */
-       background-color:red; 
-        
+        width:200px;
+        display:none;
+       background:red; 
+        position: absolute;
+        top:100%;
+        left:50%;
+        transform:translateX(-50%);
+        border:1px solid black;
+        flex-direction:column;
+        padding:5px;
+        z-index:10;
+}
+.menu .menubar ul li .submenu li{
+       list-style:none;
+        padding:8px 5%;
+        width:90%;
+        display:flex;
+        justify-content:center;
+        align-iteam:center;
 }
