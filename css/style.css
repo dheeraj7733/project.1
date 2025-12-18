@@ -58,7 +58,7 @@
         /* text-decoration: underline; */
         color:red;      
 }
-/* .menu .menubar ul li .submenu{
+.menu .menubar ul li .submenu{
        height:auto;
         width:200px;
         display:none;
@@ -79,4 +79,4 @@
         display:flex;
         justify-content:center;
         align-iteam:center;
-} */
+}
