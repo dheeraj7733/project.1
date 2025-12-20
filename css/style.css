@@ -35,13 +35,13 @@
         justify-content:space-around;
 }
 .menu .menubar ul li{
-        list-style-type:none; 
-         position: relative;        
-          height: 100%; 
+        list-style:none; 
+        position: relative;        
+        height: 100%; 
         width:100%;
-          display: flex;
-          align-items: center;
-         justify-content:center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
 }
 .menu .menubar ul li a{
         text-decoration:none;
