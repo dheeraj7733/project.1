@@ -87,7 +87,7 @@
         align-iteam:center;
 }
 .menu .menubar ul li .submenu li a{
-         font-size:1vw;
+         font-size:1.5vw;
          color: white;
           text-align: center;
           display: inline-block;
@@ -96,6 +96,11 @@
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
+        
+}
+.menu .menubar ul li .submenu li a:hover{
+         background-color:pink;
+        
         
 }
 .menubar ul li:hover .submenu{
