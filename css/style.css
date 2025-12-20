@@ -87,8 +87,15 @@
         align-iteam:center;
 }
 .menu .menubar ul li .submenu li a{
-     
-        color:black;
+         font-size:1vw;
+         color: white;
+          text-align: center;
+          display: inline-block;
+          max-width: 100%;
+          /* position: absolute; */
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         
 }
 .menubar ul li:hover .submenu{
