@@ -3,38 +3,14 @@
     <title>NAVBAR</title>
     <link rel="stylesheet" href="css/style.css"></link>
     <meta name="viewport" content="width=device-width" initial-scale=1.0>
+    <script src="js/menu.js" defer></script>
     <script src="js/supabase-init.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div id="header"> </div>
-    <script>
-      fetch("header.html")
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById("header").innerHTML = data;
-          
-      let currentpage = window.location.pathname.split("/").pop();
-          if (!currentpage || currentpage == "#"){
-            currentpage = "index.html";
-          }
-
-      let links = document.querySelectorAll(".menu .menubar ul li a");
-
-      links. forEach(link => {
-        console.log("Current page:" , currentpage);
-
-        let linkpage = link.getAttribute("href");
-        console.log("attribute value:" ,linkpage);
-        if(!linkpage)return;
-        if (linkpage == currentpage){
-            link.closest("li").classList.add("underline_current")
-        }
-      });
-   });
-      
-    </script>
+    
     <h1> Hello world </h1>
   </body>
 </html>
