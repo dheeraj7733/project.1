@@ -1,6 +1,6 @@
 const supabaseClient = window.supabase.createClient(
-  "sb_publishable_wmOXVyoaOKdG4DLoCQ7dHg_lkmMcg8c",
-  "https://sdzbbellnefpqwxqjzqz.supabase.co"
+  "https://sdzbbellnefpqwxqjzqz.supabase.co",
+  "sb_publishable_wmOXVyoaOKdG4DLoCQ7dHg_lkmMcg8c"
 );
 
 if (supabaseClient){
