@@ -4,8 +4,8 @@ const supabaseClient = window.supabase.createClient(
 );
 
 if (supabaseClient){
-  consoe.log("database connected");
+  console.log("database connected");
 }
 else{
-   consoe.log("database not connected");
+   console.log("database not connected");
 }
